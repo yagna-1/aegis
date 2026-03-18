@@ -1,5 +1,17 @@
 # Aegis v2
 
+<div align="center">
+<pre>
+  █████╗ ███████╗ ██████╗ ██╗███████╗
+ ██╔══██╗██╔════╝██╔════╝ ██║██╔════╝
+ ███████║█████╗  ██║  ███╗██║███████╗
+ ██╔══██║██╔══╝  ██║   ██║██║╚════██║
+ ██║  ██║███████╗╚██████╔╝██║███████║
+ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚══════╝
+ Credential proxy for AI agents · v2.0.0
+</pre>
+</div>
+
 > Stop putting API keys where AI agents can read them.
 
 A lightweight credential proxy for AI agent workflows. Sits between your agent and any API — injecting real secrets at the network boundary. The agent **never sees credentials**.
