@@ -1,0 +1,12 @@
+/aegis
+/aegis.exe
+
+.env
+aegis.yaml
+*.log
+
+/dist/
+*.test
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,50 @@
+
+port: 8080
+
+
+
+
+
+
+
+allowlist:
+  - api.github.com
+  - api.stripe.com
+  - slack.com
+  - hooks.slack.com
+  - api.openai.com
+  - api.anthropic.com
+  - api.linear.app
+  - api.notion.com
+
+
+credentials:
+  api.github.com:
+    header: Authorization
+    template: "Bearer ${GITHUB_TOKEN}"
+
+  api.stripe.com:
+    header: Authorization
+    template: "Bearer ${STRIPE_SECRET_KEY}"
+
+  slack.com:
+    header: Authorization
+    template: "Bearer ${SLACK_BOT_TOKEN}"
+
+  api.openai.com:
+    header: Authorization
+    template: "Bearer ${OPENAI_API_KEY}"
+
+  api.anthropic.com:
+    header: x-api-key
+    template: "${ANTHROPIC_API_KEY}"
+
+  api.linear.app:
+    header: Authorization
+    template: "Bearer ${LINEAR_API_KEY}"
+
+  api.notion.com:
+    header: Authorization
+    template: "Bearer ${NOTION_TOKEN}"
+
+
