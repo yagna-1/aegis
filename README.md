@@ -1,15 +1,7 @@
 # Aegis v2
 
 <div align="center">
-<pre>
-  █████╗ ███████╗ ██████╗ ██╗███████╗
- ██╔══██╗██╔════╝██╔════╝ ██║██╔════╝
- ███████║█████╗  ██║  ███╗██║███████╗
- ██╔══██║██╔══╝  ██║   ██║██║╚════██║
- ██║  ██║███████╗╚██████╔╝██║███████║
- ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚══════╝
- Credential proxy for AI agents · v2.0.0
-</pre>
+<img src="assets/aegis-banner.svg" alt="Aegis banner" width="860">
 </div>
 
 > Stop putting API keys where AI agents can read them.
